@@ -23,7 +23,7 @@ function App() { // 5 aqui está nosso elemento pai que é o App que está impor
       <img width={300} src="https://img.freepik.com/fotos-gratis/sedan-de-luxo-vermelho-na-estrada_114579-5079.jpg?size=626&ext=jpg" alt='' className=''  />
       {/* 3 na minha Tag personalizada (CARD) eu posso adicionar e alterar quantos atributos eu quiser, Exemplo do atributo título abaixo: */}
       {/*4  titulo é uma PROP e PROP nada mais é que eu criar meu próprio atributo, definir ele e passar um dado p/ dentro dele (Titulo do card)  */}
-      <Card titulo="Titulo do Meu card " subtitulo="Subtitulo do meu Card" />
+      <Card valor={10} nome="Bruno" titulo="Titulo do Meu card " subtitulo="Subtitulo do meu Card" />
       <Card titulo="Titulo do Card 2" />
     </>
   )
