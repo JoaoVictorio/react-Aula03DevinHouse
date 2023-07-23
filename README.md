@@ -1,4 +1,4 @@
-# React + Props
+# React + Promps
 
 
 - Pode ser usada para fazer uma estilização;
